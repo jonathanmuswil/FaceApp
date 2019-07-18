@@ -1,0 +1,26 @@
+package com.google.android.gms.internal.ads;
+
+import com.google.android.gms.ads.internal.overlay.o;
+import java.util.Set;
+
+public final class bw
+  implements RT<Set<Bw<o>>>
+{
+  private final Xv a;
+  
+  private bw(Xv paramXv)
+  {
+    this.a = paramXv;
+  }
+  
+  public static bw a(Xv paramXv)
+  {
+    return new bw(paramXv);
+  }
+}
+
+
+/* Location:              /Applications/dex2jar/classes-dex2jar.jar!/com/google/android/gms/internal/ads/bw.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

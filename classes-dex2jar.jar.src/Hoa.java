@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+
+final class hoa<T, R>
+  implements DRa<T, R>
+{
+  public static final hoa a = new hoa();
+  
+  public final List<Tja> a(List<hka> paramList)
+  {
+    oXa.b(paramList, "demoImages");
+    ArrayList localArrayList = new ArrayList(mWa.a(paramList, 10));
+    paramList = paramList.iterator();
+    while (paramList.hasNext()) {
+      localArrayList.add(new Tja((hka)paramList.next()));
+    }
+    return localArrayList;
+  }
+}
+
+
+/* Location:              /Applications/dex2jar/classes-dex2jar.jar!/hoa.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */
